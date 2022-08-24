@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="text-content">
+        <div class="star-image-container">
+          <img
+            src="
+             images/icon-star.svg"
+            alt="star icon"
+            class="star-image"
+          />
+        </div>
+        <div text="header-box">
+          <h2 class="heading-text">How did we do?</h2>
+        </div>
+        <div class="paragraph-box">
+          <p class="text-paragraph">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="ratings-box">
+          <div class="rating-container">
+            <div class="rating">1</div>
+          </div>
+          <div class="rating-container">
+            <div class="rating">2</div>
+          </div>
+          <div class="rating-container">
+            <div class="rating">3</div>
+          </div>
+          <div class="rating-container">
+            <div class="rating">4</div>
+          </div>
+          <div class="rating-container">
+            <div class="rating">5</div>
+          </div>
+        </div>
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="container-thank-you hidden">
+      <div class="text-content thank-you-text-content">
+        <div class="thank-you-image-box">
+          <img
+            class="thank-you-image"
+            src="images/illustration-thank-you.svg"
+            alt="thank you image"
+          />
+        </div>
+        <div class="selection-box">
+          <p class="selection">
+            You selected <span class="rating-number">4</span> here out of 5
+          </p>
+        </div>
+        <div class="thank-you-heading-box">
+          <h2 class="heading-text thank-you-heading-text">Thank you!</h2>
+        </div>
+        <div class="paragraph-box">
+          <p class="text-paragraph thank-you-text-paragraph">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thank you state end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
